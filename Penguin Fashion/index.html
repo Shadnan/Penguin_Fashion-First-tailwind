@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penguin Fashion</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                price: '#FABE4C' 
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <header class="bg-amber-100 ">
+        <!-- NavBar -->
+
+        <!-- Banner -->
+        <div class=" py-12 md:flex justify-center items-center mt-12">
+
+            <div class="space-y-6 px-4">
+                <h1 class="text-7xl font-semibold uppercase"><span class="text-amber-300">Be the<br> Penguins</span><br>
+                    of Winter</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, beatae.</p>
+
+                        <button class="uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white py-4 px-8 rounded-lg"><i class="fa-solid fa-cart-shopping me-1.5"></i> By now</button>
+            </div>
+            <div>
+                <img class="w-3/4 md:w-full" src="images/model.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main class="container mx-auto">
+        <!-- Woman Jacket -->
+            <section class="mt-12 ">
+                <h2 class="text-5xl uppercase font-semibold">Woman jacket</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <!-- jacket-1-card -->
+                    <div class="rounded-2xl p-4 drop-shadow-xl">
+                    <div class="bg-slate-100 p-4 rounded-2xl">
+                        <img src="images/jacket-1.png" alt="">
+                    </div>
+                    <div> 
+                            <h3 class="text-2xl">Yellow Coat Jacket</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, blanditiis ipsa assumenda necessitatibus sequi labore?</p>
+                            <div class="flex justify-between">
+                                <h2 class="text-4xl font-semibold text-price">$234</h2>
+                                <button class="uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white py-4 px-8 rounded-lg"><i class="fa-solid fa-cart-shopping me-1.5"></i> By now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- jacket-2-card -->
+                    <div class="rounded-2xl p-4 drop-shadow-xl">
+                    <div class="bg-slate-100 p-4 rounded-2xl">
+                        <img src="images/jacket-1.png" alt="">
+                    </div>
+                    <div> 
+                            <h3 class="text-2xl">Yellow Coat Jacket</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, blanditiis ipsa assumenda necessitatibus sequi labore?</p>
+                            <div class="flex justify-between">
+                                <h2 class="text-4xl font-semibold text-price">$234</h2>
+                                <button class="uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white py-4 px-8 rounded-lg"><i class="fa-solid fa-cart-shopping me-1.5"></i> By now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- jacket-3-card -->
+                    <div class="rounded-2xl p-4 drop-shadow-xl">
+                    <div class="bg-slate-100 p-4 rounded-2xl">
+                        <img src="images/jacket-1.png" alt="">
+                    </div>
+                    <div> 
+                            <h3 class="text-2xl">Yellow Coat Jacket</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, blanditiis ipsa assumenda necessitatibus sequi labore?</p>
+                            <div class="flex justify-between">
+                                <h2 class="text-4xl font-semibold text-price">$234</h2>
+                                <button class="uppercase bg-gradient-to-r from-[#A4BC46] to-[#85A019] text-white py-4 px-8 rounded-lg"><i class="fa-solid fa-cart-shopping me-1.5"></i> By now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
